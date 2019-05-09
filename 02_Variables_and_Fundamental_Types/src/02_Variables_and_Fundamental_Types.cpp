@@ -12,8 +12,13 @@ using namespace std;
 
 int main() {
 
-	auto message = 1.59897456;
+	float message = 1.59897456;
 
-	cout << message << endl; // prints !!!Hello World!!!
+	int message_casted = static_cast<int>(message);			//Safe cast from float into a integer
+
+	cout << message_casted << endl; // prints !!!Hello World!!!
+
+
+
 	return 0;
 }
