@@ -21,6 +21,11 @@ Person::~Person() {
 
 string Person::getName() {
 
-	return firstname + " " + lastname;
+	return firstname + " " + lastname + " ";
+
+}
+
+int Person::getNumber() {
+	return arbitrarynumber;
 }
 

@@ -13,14 +13,15 @@ using namespace std;
 
 class Person {
 private:
-	string firstname;
+	string firstname;		//private members of the class, they are not suposse to be accessed from outside
 	string lastname;
 	int arbitrarynumber;
 
 public:
 	Person(std::string first, std::string last, int arbitrary);
 	virtual ~Person();
-	string getName();
+	string getName();		//In order to modify the members getName will be used (declarated in person.cpp)
+	int getNumber();
 
 };
 

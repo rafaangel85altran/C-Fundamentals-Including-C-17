@@ -12,11 +12,13 @@ using namespace std;
 
 int main() {
 
-	Person p1("Rafa", "Angel", 123);
+	Person p1("Rafa", "Angel", 33);
 
 	std::string name = p1.getName();
 
-	cout << name << endl;
+	int age = p1.getNumber();
+
+	cout << name << age << endl;
 
 	return 0;
 }
