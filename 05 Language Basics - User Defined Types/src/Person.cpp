@@ -9,7 +9,9 @@
 #include <string>
 
 Person::Person() {
-	// TODO Auto-generated constructor stub
+	Person::arbitrarynumber = 0;
+	Person::firstname = "None";
+	Person::lastname = "None2";
 
 }
 
