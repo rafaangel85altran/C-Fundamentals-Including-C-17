@@ -7,9 +7,12 @@
 //============================================================================
 
 #include <iostream>
+#include "Person.h"
 using namespace std;
 
 int main() {
-	cout << "02 Variables and Fundamental Types" << endl; // prints 02 Variables and Fundamental Types
+
+	Person p1;
+
 	return 0;
 }
