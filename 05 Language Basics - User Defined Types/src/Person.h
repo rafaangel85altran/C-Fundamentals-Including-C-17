@@ -15,10 +15,12 @@ class Person {
 private:
 	string firstname;
 	string lastname;
+	int arbitrarynumber;
 
 public:
 	Person();
 	virtual ~Person();
+	string getName();
 
 };
 

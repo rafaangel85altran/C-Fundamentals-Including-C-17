@@ -14,5 +14,9 @@ int main() {
 
 	Person p1;
 
+	std::string name = p1.getName();
+
+	cout << name << endl;
+
 	return 0;
 }
