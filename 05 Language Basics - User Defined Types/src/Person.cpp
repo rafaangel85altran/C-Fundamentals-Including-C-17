@@ -8,11 +8,11 @@
 #include "Person.h"
 #include <string>
 
-Person::Person() {
-	Person::arbitrarynumber = 0;
-	Person::firstname = "None";
-	Person::lastname = "None2";
+Person::Person(std::string first, std::string last, int arbitrary)
+:
 
+firstname(first), lastname(last), arbitrarynumber(arbitrary)
+{
 }
 
 Person::~Person() {

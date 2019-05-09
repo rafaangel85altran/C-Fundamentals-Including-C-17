@@ -18,7 +18,7 @@ private:
 	int arbitrarynumber;
 
 public:
-	Person();
+	Person(std::string first, std::string last, int arbitrary);
 	virtual ~Person();
 	string getName();
 

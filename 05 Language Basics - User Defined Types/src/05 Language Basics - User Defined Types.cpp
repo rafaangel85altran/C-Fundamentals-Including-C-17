@@ -12,7 +12,7 @@ using namespace std;
 
 int main() {
 
-	Person p1;
+	Person p1("Rafa", "Angel", 123);
 
 	std::string name = p1.getName();
 
