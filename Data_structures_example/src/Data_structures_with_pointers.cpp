@@ -32,7 +32,8 @@ int main () {
 	(stringstream) mystr >> pmovie -> year;
 
 	cout << "You have entered" << endl;
-	cout << pmovie -> title << endl;
+	//cout << pmovie -> title << endl;		//member title of object amovie pointing to pmovie. Equivalent (*a).b
+	cout << (*pmovie).title << endl;
 	cout << pmovie -> year << endl;
 
 	return 0;
