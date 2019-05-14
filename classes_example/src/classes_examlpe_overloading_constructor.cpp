@@ -12,8 +12,8 @@ class Rectangle {
 	private:
 		int width, height;
 	public:
-		Rectangle();
-		Rectangle(int,int);
+		Rectangle();				//default constructor, is called when an object is called with no arguments
+		Rectangle(int,int);			//custom constructor, is called when an object is called with two ints
 		int area (void) {return (width*height);}
 };
 
